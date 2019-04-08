@@ -1,0 +1,282 @@
+﻿@font-face {
+  font-family: 'CuprumFFURegular';
+  src: url('fonts/Cuprum-webfont.eot');
+  src: local('☺'), url('fonts/Cuprum-webfont.woff') format('woff'), url('fonts/Cuprum-webfont.ttf') format('truetype'), url('fonts/Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+table {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border:1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border-bottom: 1px solid black;
+  padding: 0.25em;
+  }
+ul{
+  list-style-type: square;
+  }
+dt, h1, h2, h3, nav, footer, th {
+  font-family: CuprumFFURegular, georgia, "times new roman", times, serif;
+  }
+h1, h2, nav, footer {
+  text-align: center;
+  }
+  
+body {
+  width: 44em;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  }
+figure {
+  display: block;
+  float: right;
+  margin: 0 0 0.5em 1em;
+  padding: 0;
+  text-align: center;
+  }
+figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  }
+footer {
+  display: block;
+  padding: 0;
+  margin: 0;
+  clear: right;
+  font-size: 1em;
+  }
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+h1 {
+  font-size: 2.25em;
+  margin: 0;
+  padding: 0;
+  }
+h2 {
+  font-size: 1.75em;
+  }
+h3 {
+  font-size: 1.5em;
+  }
+img {
+  border: none;
+  margin: 0 auto;
+  }
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  }
+nav p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+TABLE {
+border-collapse: collapse;
+}
+
+TD {
+border: solid transparent;
+border-width: 4px 0;
+}
+#box {
+  padding: 1em;
+  margin: 0 auto; 
+  }
+#details {
+  text-align: center;
+  display:inline;
+  }
+#main img {
+  padding-top: 1em;
+  }
+#mainnav {
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#maintext {
+  margin: 0;
+  padding: 1em;
+  }
+#name {
+  font-weight: bold;
+  }
+#pagenav {
+  margin: 0;
+  padding: 0.25em;
+  }
+#pagenav2 {
+  margin: 0;
+  padding: 0.25em;
+  text-align: center;
+  float: center;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+.beds {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  font-weight: bold;
+  }
+.callout {
+  font-weight: bold;
+  }
+.category {
+  display:table;
+  }
+.row {
+  display:table-row;
+  }
+.row div {
+  display:table-cell;
+  padding: 0.25em 0.5em;
+  }
+.cotcol {
+  width: 15%;
+  }
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+.firstcol {
+  width: 25%;
+  }
+.rates td {
+  text-align: center;
+  }
+.rates td.season {
+  text-align:left;
+  } 
+.roomcols {
+  width: 15%;
+  }
+/*--search--*/
+.search {
+	float: right;
+	margin-top: 0.3em;
+}
+.search input[type="text"] {
+	border: 1px;
+	font-size: 13px;
+	width: 120px;
+	height: 22px;
+	outline: none;
+	border: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	-webkit-box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.gray-button {
+	padding: 2px 10px 2px;
+	height:22px;
+	color:black;
+	font-size: 12px;
+	border: 1px solid ;
+	border-bottom: 1px ;
+	-webkit-box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	box-shadow: inset 1px 4px 4px rgba(227, 227, 227, 0.5);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.gray-button:hover {
+	color:#000;
+}
+/*--*/
+.tablenote {
+  width: 90%;
+  margin: 0.25em auto;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  clear: right;
+  }
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
+#skipnav a:link {
+  color: black;
+  }
+#skipnav a:visited {
+  color: black;
+  }
+#skipnav a:hover {
+  color: black;
+  }
+#skipnav a:active {
+  color: black;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: black;
+  }
+#pagenav a:hover {
+  color: black;
+  }
+#pagenav a:active {
+  color: black;
+  }
+#pagenav2 a:link {
+  color: black;
+  }
+#pagenav2 a:visited {
+  color: black;
+  }
+#pagenav2 a:hover {
+  color: black;
+  }
+#pagenav2 a:active {
+  color: black;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: black;
+  }
+#mainnav a:active {
+  color: black;
+  }
